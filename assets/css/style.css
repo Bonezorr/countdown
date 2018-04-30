@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+/* ====== Page CSS ====== */
+header {
+    background-color: #24292C;
+    color: white;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
+    height: 8vh;
+    overflow: hidden;
+}
+
+header h1 {
+    line-height: 8vh;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #24292C;
+    height: 5vh;
+}
+
+footer h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 5vh;
+}
+
+main {
+    overflow-y: auto;
+    height: 87vh;
+}
+
+/* ==== Countdown CSS ==== */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.countdown {
+    height: 100px;
+    position: relative;
+    margin-bottom: 25px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown .content {
+    line-height: 100%;
+}
+
+.container .countdown:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container .countdown {
+    padding: 25px;
+}
+
+.container .countdown .title {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.background {
+    opacity: 0.4;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(2px);
+    width: 100%;
+    height: 100%;
+}
+
+.progression {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+
+.progpercentage {
+    display: block;
+    height: 6px;
+    border-radius: 0 0 3px 0;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.5s;
+    width: 0;
+}

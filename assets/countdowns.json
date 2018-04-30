@@ -1,0 +1,130 @@
+{
+  "Countdowns": [
+    {
+      "name": "6v6 Elimination Competitive",
+      "type": "competitive",
+      "start": "2018/04/17 7:00:00 PM UTC",
+      "end": "2018/05/07 11:00:00 PM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Retribution",
+      "type": "event",
+      "start": "2018/04/04 7:00:00 PM UTC",
+      "end": "2018/04/29 11:00:00 PM UTC",
+      "finished": false,
+      "icon": null,
+      "background": "assets/images/rialto.png"
+    },
+    {
+      "name": "Competitive Season 9",
+      "type": "competitive",
+      "start": "2018/02/28 7:00:00 PM UTC",
+      "end": "2018/04/28 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-9.jpg"
+    },
+    {
+      "name": "Competitive Season 10",
+      "type": "competitive",
+      "start": "2018/04/30 7:00:00 PM UTC",
+      "end": "2018/06/29 11:00:00 PM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 8",
+      "type": "competitive",
+      "start": "2017/12/30 7:00:00 PM UTC",
+      "end": "2018/02/26 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-7.jpg"
+    },
+    {
+      "name": "Anniversary 2018",
+      "type": "event",
+      "start": "2018/05/23 7:00:00 PM UTC",
+      "end": "2018/06/12 11:00:00 PM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Anniversary 2017",
+      "type": "event",
+      "start": "2017/05/23 7:00:00 PM UTC",
+      "end": "2017/06/12 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 1",
+      "type": "competitive",
+      "start": "2016/06/28 7:00:00 PM UTC",
+      "end": "2016/08/18 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 2",
+      "type": "competitive",
+      "start": "2016/09/01 7:00:00 PM UTC",
+      "end": "2018/11/24 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 3",
+      "type": "competitive",
+      "start": "2016/12/01 7:00:00 PM UTC",
+      "end": "2017/02/22 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 4",
+      "type": "competitive",
+      "start": "2017/03/01 7:00:00 PM UTC",
+      "end": "2017/05/29 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 5",
+      "type": "competitive",
+      "start": "2017/05/31 7:00:00 PM UTC",
+      "end": "2017/08/29 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 6",
+      "type": "competitive",
+      "start": "2017/09/01 7:00:00 PM UTC",
+      "end": "2017/10/29 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Competitive Season 7",
+      "type": "competitive",
+      "start": "2017/11/01 7:00:00 PM UTC",
+      "end": "2017/12/29 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-7.jpg"
+    }
+  ]
+}
