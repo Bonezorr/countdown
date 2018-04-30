@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
+</head>
+<body>
+<header><h1><a href="index.html">Overwatch Event Countdown</a></h1>
+    <ul class="hamburger" onclick="Menu(this)">
+        <li class="line1"></li>
+        <li class="line2"></li>
+        <li class="line3"></li>
+    </ul>
+</header>
+<ul class="menu hidden">
+    <li class="menu-item"><a href="events.html">All Seasonal Events</a></li>
+    <li class="menu-item"><a href="competitive.html">All Competitive Seasons</a></li>
+    <li class="menu-item"><a href="about.html">About & Disclaimer</a></li>
+</ul>
+<main>
+    <ul class="container">
+        <li class="about"><h1>About</h1><p>Hi there! Welcome to my website.
+            I created Overwatch Countdown because I saw a lot of frustration on Reddit about the ending dates of events
+            (As well for the beginning and ending of competitive seasons). I hope you like it</p> <br/>
+            <p>Also please note that the ending dates are the official ending dates given by Blizzard, for seasonal
+                events it's not uncommon for them to last 1 day longer (to reset together with Arcade lootboxes).
+                That's why I added the 'overdue' timer</p>
+        </li>
+        <li class="disclaimer"><h1>Disclaimer</h1><p>Since Blizzard doesn't have an API for events, I have to look for
+            starting and end dates myself. This could result into a wrong ending date or starting date. If you notice
+            something feel free to message me on Reddit
+            <a href="https://www.reddit.com/user/Bonezorr/" target="_blank">u/Bonezorr</a>.</p></li>
+    </ul>
+</main>
+<footer><h2>made by Bonezorr</h2></footer>
+<script>
+    function Menu(m) {
+        m.classList.toggle("animation");
+        document.getElementsByClassName("menu")[0].classList.toggle("hidden");
+    }
+</script>
+</body>
+</html>

@@ -3,9 +3,6 @@ let container;
 
 function init() {
     container = document.getElementsByClassName("container")[0];
-    createCountdownElements();
-    startCountdown();
-    setInterval(startCountdown, 1000);
 }
 
 function getCountdownsJson() {
@@ -24,7 +21,7 @@ function createCountdownElements() {
         {
             let background = (countdown.background !== null) ? countdown.background : randomBackground();
 
-            container.innerHTML += `<li class="countdown" data-type="${countdown.type}" data-start="${countdown.start}" data-end="${countdown.end}">
+            container.innerHTML += `<li class="countdown" data-type="${countdown.type}" data-start="${countdown.start}" data-end="${countdown.end}" data-finished="${countdown.finished}">
                                          <div class="progression"><span class="progpercentage"></span></div>
                                          <h1 class="title">${countdown.name}</h1>
                                          <p class="timer"></p>
@@ -34,13 +31,13 @@ function createCountdownElements() {
     }
 }
 
-function startCountdown() {
+function startCountdown(mode) {
     let countdowns = document.getElementsByClassName("countdown");
 
     for (let i = 0; i < countdowns.length; i++) {
         let active = isActive(countdowns[i]);
         let overdue = isOverdue(countdowns[i]);
-        updateTimer(countdowns[i], active, overdue);
+        updateTimer(countdowns[i], active, overdue, mode);
     }
 }
 
@@ -57,28 +54,58 @@ function isOverdue(element) {
 }
 
 
-function updateTimer(element, active, overdue) {
+function updateTimer(element, active, overdue, mode) {
     let countdownDate;
     let timer = element.getElementsByClassName("timer")[0];
-    if (active) {
+    let finished = (element.dataset.finished === "true");
+    let time = "";
+    let prefix = "";
+    let suffix = "";
+
+    if (active && !finished) {
         countdownDate = addDateOffset(new Date(element.dataset.end));
-        timer.innerHTML = "ends in ";
-        if (overdue) timer.innerHTML = "is overdue by ";
-    }
-    else {
+        prefix = "ends in ";
+        if (overdue) {
+            prefix = "is overdue by ";
+        }
+    } else if (finished) {
+        countdownDate = addDateOffset(new Date(element.dataset.end));
+        prefix = "ended ";
+    } else {
         countdownDate = addDateOffset(new Date(element.dataset.start));
-        timer.innerHTML = "starts in ";
+        prefix = "starts in ";
     }
+
     let now = new Date().getTime();
     let distance = countdownDate - now;
-    if (overdue) distance = distance * -1;
+
+    if (finished || overdue) {
+        distance = distance * -1;
+    }
 
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    timer.innerHTML += days + " days, " + hours + " hours, " + minutes + " min, " + seconds + " sec";
+    switch (mode) {
+        case 1:
+            time = days + " days, " + hours + " hours, " + minutes + " min";
+            break;
+        case 2:
+            time = days + " days, " + hours + " hours";
+            break;
+        case 3:
+            time = days + " days";
+            break;
+        default:
+            time = days + " days, " + hours + " hours, " + minutes + " min, " + seconds + " sec";
+            break;
+    }
+
+    if (finished) suffix = " ago";
+
+    timer.innerHTML = prefix + time + suffix;
 
     updateProgression(element);
 }
