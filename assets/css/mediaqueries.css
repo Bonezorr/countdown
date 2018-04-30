@@ -8,10 +8,40 @@
     .container {
         width: 90%;
     }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hamburger {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 460px) {
     header h1 {
         font-size: 1.5rem;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .hamburger {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .hamburger {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .line1, .line2, .line3 {
+        width: 35px;
+        height: 3px;
+        margin: 7px 0;
     }
 }
