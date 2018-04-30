@@ -14,7 +14,7 @@
       "type": "event",
       "start": "2018/04/04 7:00:00 PM UTC",
       "end": "2018/04/29 11:00:00 PM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": "assets/images/rialto.png"
     },
@@ -111,7 +111,7 @@
     {
       "name": "Competitive Season 10",
       "type": "competitive",
-      "start": "2018/04/30 11:00:00 PM UTC",
+      "start": "2018/05/01 0:00:00 AM UTC",
       "end": "2018/06/29 11:00:00 PM UTC",
       "finished": false,
       "icon": null,
@@ -122,7 +122,7 @@
       "type": "competitive",
       "start": "2018/04/18 0:00:00 PM UTC",
       "end": "2018/05/07 11:00:00 PM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
