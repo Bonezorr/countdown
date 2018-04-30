@@ -1,6 +1,15 @@
 {
   "Countdowns": [
     {
+      "name": "Anniversary 2018",
+      "type": "event",
+      "start": "2018/05/24 0:00:00 PM UTC",
+      "end": "2018/06/12 11:00:00 PM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+    {
       "name": "Retribution",
       "type": "event",
       "start": "2018/04/04 7:00:00 PM UTC",
@@ -8,6 +17,96 @@
       "finished": false,
       "icon": null,
       "background": "assets/images/rialto.png"
+    },
+    {
+      "name": "Year of the Dog",
+      "type": "event",
+      "start": "2018/02/08 7:00:00 PM UTC",
+      "end": "2018/03/06 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Winter Wonderland 2017",
+      "type": "event",
+      "start": "2017/12/12 7:00:00 PM UTC",
+      "end": "2018/01/02 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Halloween Terror 2017",
+      "type": "event",
+      "start": "2017/10/10 7:00:00 PM UTC",
+      "end": "2017/11/02 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Summer Games 2017",
+      "type": "event",
+      "start": "2017/08/08 7:00:00 PM UTC",
+      "end": "2017/08/29 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Anniversary 2017",
+      "type": "event",
+      "start": "2017/05/23 7:00:00 PM UTC",
+      "end": "2017/06/12 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Uprising",
+      "type": "event",
+      "start": "2017/04/11 7:00:00 PM UTC",
+      "end": "2017/05/02 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Year of the Rooster",
+      "type": "event",
+      "start": "2017/01/24 7:00:00 PM UTC",
+      "end": "2017/02/13 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Winter Wonderland 2016",
+      "type": "event",
+      "start": "2016/12/03 7:00:00 PM UTC",
+      "end": "2017/01/02 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Halloween Terror 2016",
+      "type": "event",
+      "start": "2016/10/11 7:00:00 PM UTC",
+      "end": "2016/11/01 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Summer Games 2016",
+      "type": "event",
+      "start": "2016/08/02 7:00:00 PM UTC",
+      "end": "2016/08/22 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
     },
     {
       "name": "Competitive Season 10",
@@ -37,6 +136,15 @@
       "background": "assets/images/season-9.jpg"
     },
     {
+      "name": "Competitive CTF",
+      "type": "competitive",
+      "start": "2018/02/08 7:00:00 PM UTC",
+      "end": "2018/03/06 11:00:00 PM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
       "name": "Competitive Season 8",
       "type": "competitive",
       "start": "2018/01/01 0:00:00 PM UTC",
@@ -44,24 +152,6 @@
       "finished": true,
       "icon": null,
       "background": "assets/images/season-7.jpg"
-    },
-    {
-      "name": "Anniversary 2018",
-      "type": "event",
-      "start": "2018/05/24 0:00:00 PM UTC",
-      "end": "2018/06/12 11:00:00 PM UTC",
-      "finished": false,
-      "icon": null,
-      "background": null
-    },
-    {
-      "name": "Anniversary 2017",
-      "type": "event",
-      "start": "2017/05/23 7:00:00 PM UTC",
-      "end": "2017/06/12 11:00:00 PM UTC",
-      "finished": true,
-      "icon": null,
-      "background": null
     },
     {
       "name": "Competitive Season 7",
@@ -77,6 +167,15 @@
       "type": "competitive",
       "start": "2017/09/01 7:00:00 PM UTC",
       "end": "2017/10/29 0:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+    {
+      "name": "Copa Lúcioball",
+      "type": "competitive",
+      "start": "2017/08/08 7:00:00 PM UTC",
+      "end": "2017/08/29 11:00:00 PM UTC",
       "finished": true,
       "icon": null,
       "background": null
