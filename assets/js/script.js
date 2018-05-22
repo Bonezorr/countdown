@@ -90,7 +90,13 @@ function updateTimer(element, active, overdue, mode) {
 
     switch (mode) {
         case 1:
-            time = days + " days, " + hours + " hours, " + minutes + " min";
+            if (days > 0) {
+                time = days + " days"
+            } else if (days === 0) {
+                time = hours + " hours, " + minutes + " min"
+            } else if (hours === 0) {
+                time = minutes + " min"
+            }
             break;
         case 2:
             time = days + " days, " + hours + " hours";
@@ -99,9 +105,19 @@ function updateTimer(element, active, overdue, mode) {
             time = days + " days";
             break;
         default:
-            time = days + " days, " + hours + " hours, " + minutes + " min, " + seconds + " sec";
+            if (days > 0) {
+                time = days + " days"
+            } else if (days === 0) {
+                time = hours + " hours, " + minutes + " min, " + seconds + " sec";
+            } else if (hours === 0) {
+                time = minutes + " min, " + seconds + " sec";
+            } else if (minutes === 0) {
+                time = seconds + " sec";
+            }
             break;
     }
+
+
 
     if (finished) suffix = " ago";
 
