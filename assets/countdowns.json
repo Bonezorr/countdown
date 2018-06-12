@@ -5,7 +5,7 @@
       "type": "competitive",
       "start": "2018/05/22 5:00:00 PM UTC",
       "end": "2018/06/12 11:00:00 PM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
@@ -14,7 +14,7 @@
       "type": "event",
       "start": "2018/05/22 5:00:00 PM UTC",
       "end": "2018/06/12 11:00:00 PM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
