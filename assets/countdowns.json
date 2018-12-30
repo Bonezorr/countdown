@@ -13,7 +13,7 @@
       "name": "Competitive Season 13",
       "type": "competitive",
       "start": "2018/11/01 0:00:00 AM UTC",
-      "end": "2018/12/30 00:00:00 AM UTC",
+      "end": "2018/12/31 00:00:00 AM UTC",
       "finished": false,
       "icon": null,
       "background": "assets/images/season-13.jpg"
@@ -64,7 +64,7 @@
       "background": "assets/images/season-11.jpg"
     },
     {
-      "name": "Competitive 3v3",
+      "name": "Competitive 3v3 2018",
       "type": "competitive",
       "start": "2018/06/29 5:00:00 PM UTC",
       "end": "2018/07/17 01:00:00 AM UTC",
@@ -73,7 +73,7 @@
       "background": null
     },
     {
-      "name": "Competitive Deathmatch",
+      "name": "Competitive Deathmatch 2018",
       "type": "competitive",
       "start": "2018/05/22 5:00:00 PM UTC",
       "end": "2018/06/12 01:00:00 AM UTC",
@@ -199,7 +199,7 @@
       "background": null
     },
     {
-      "name": "6v6 Elimination Competitive",
+      "name": "6v6 Elimination Competitive 2018",
       "type": "competitive",
       "start": "2018/04/18 0:00:00 PM UTC",
       "end": "2018/05/07 11:00:00 PM UTC",
@@ -217,7 +217,7 @@
       "background": "assets/images/season-9.jpg"
     },
     {
-      "name": "Competitive CTF",
+      "name": "Competitive CTF 2018",
       "type": "competitive",
       "start": "2018/02/08 7:00:00 PM UTC",
       "end": "2018/03/06 11:00:00 PM UTC",
