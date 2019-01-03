@@ -1,20 +1,29 @@
 {
   "Countdowns": [
 	  {
+      "name": "Year of the Pig",
+      "type": "event",
+      "start": "2019/02/05 0:00:00 AM UTC",
+      "end": "2019/02/31 00:00:00 AM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+	  {
       "name": "Competitive Season 14",
       "type": "competitive",
       "start": "2019/01/01 0:00:00 AM UTC",
       "end": "2019/02/31 00:00:00 AM UTC",
       "finished": false,
       "icon": null,
-      "background": "assets/images/season-13.jpg"
+      "background": "assets/images/season-14.jpg"
     },
     	{
       "name": "Winter Wonderland 2018",
       "type": "event",
       "start": "2018/12/11 7:00:00 PM UTC",
       "end": "2019/01/02 11:00:00 PM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
@@ -23,7 +32,7 @@
       "type": "competitive",
       "start": "2018/11/01 0:00:00 AM UTC",
       "end": "2018/12/31 00:00:00 AM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": "assets/images/season-13.jpg"
     },
