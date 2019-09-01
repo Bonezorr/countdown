@@ -1,11 +1,92 @@
 {
   "Countdowns": [
 	  {
+      "name": "Competitive Season 18",
+      "type": "competitive",
+      "start": "2019/09/08 0:00:00 AM UTC",
+      "end": "2019/10/31 00:00:00 AM UTC",
+      "finished": false,
+      "icon": null,
+      "background": "assets/images/season-18.jpg"
+    },
+	  {
+      "name": "Role Queue Beta",
+      "type": "competitive",
+      "start": "2019/08/13 0:00:00 AM UTC",
+      "end": "2019/09/07 00:00:00 AM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Copa Lúcioball 2019",
+      "type": "competitive",
+      "start": "2019/07/16 0:00:00 AM UTC",
+      "end": "2019/08/05 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Summer Games 2019",
+      "type": "event",
+      "start": "2019/07/16 0:00:00 AM UTC",
+      "end": "2019/08/05 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 17",
+      "type": "competitive",
+      "start": "2019/06/30 0:00:00 AM UTC",
+      "end": "2019/08/13 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-17.jpg"
+    },
+	  {
+      "name": "Anniversary 2019",
+      "type": "event",
+      "start": "2019/05/21 0:00:00 AM UTC",
+      "end": "2019/06/10 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 16",
+      "type": "competitive",
+      "start": "2019/05/01 0:00:00 AM UTC",
+      "end": "2019/06/30 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-16.jpg"
+    },
+	  {
+      "name": "Storm Rising",
+      "type": "event",
+      "start": "2019/04/16 0:00:00 AM UTC",
+      "end": "2019/05/06 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 15",
+      "type": "competitive",
+      "start": "2019/03/01 0:00:00 AM UTC",
+      "end": "2019/04/29 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": "assets/images/season-15.jpg"
+    },
+	  {
       "name": "Year of the Pig",
       "type": "event",
       "start": "2019/02/05 0:00:00 AM UTC",
       "end": "2019/02/31 00:00:00 AM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
@@ -14,7 +95,7 @@
       "type": "competitive",
       "start": "2019/01/01 0:00:00 AM UTC",
       "end": "2019/02/31 00:00:00 AM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": "assets/images/season-14.jpg"
     },
