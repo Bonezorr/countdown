@@ -7,7 +7,7 @@
       "end": "2019/10/31 00:00:00 AM UTC",
       "finished": false,
       "icon": null,
-      "background": "assets/images/season-18.jpg"
+      "background": null
     },
 	  {
       "name": "Role Queue Beta",
@@ -43,7 +43,7 @@
       "end": "2019/08/13 00:00:00 AM UTC",
       "finished": true,
       "icon": null,
-      "background": "assets/images/season-17.jpg"
+      "background": null
     },
 	  {
       "name": "Anniversary 2019",
@@ -79,7 +79,7 @@
       "end": "2019/04/29 00:00:00 AM UTC",
       "finished": true,
       "icon": null,
-      "background": "assets/images/season-15.jpg"
+      "background": "assets/images/season-15.png"
     },
 	  {
       "name": "Year of the Pig",
