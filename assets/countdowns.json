@@ -5,7 +5,7 @@
       "type": "event",
       "start": "2019/12/10 07:00:00 PM UTC",
       "end": "2020/01/02 00:00:00 AM UTC",
-      "finished": true,
+      "finished": false,
       "icon": null,
       "background": null
     },
