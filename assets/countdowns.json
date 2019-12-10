@@ -1,6 +1,24 @@
 {
   "Countdowns": [
     {
+      "name": "Winter Wonderland 2019",
+      "type": "event",
+      "start": "2019/12/10 07:00:00 PM UTC",
+      "end": "2020/01/02 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+          {
+      "name": "Competitive Team Deathmatch 2019",
+      "type": "competitive",
+      "start": "2019/11/19 07:00:00 PM UTC",
+      "end": "2019/012/10 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+          {
       "name": "Competitive Season 19",
       "type": "competitive",
       "start": "2019/11/07 07:00:00 PM UTC",
