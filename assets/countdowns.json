@@ -1,11 +1,93 @@
 {
   "Countdowns": [
+	  {
+      "name": "Competitive Season 23",
+      "type": "competitive",
+      "start": "2020/07/02 07:00:00 PM UTC",
+      "end": "2020/08/31 00:00:00 AM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Anniversary 2020",
+      "type": "event",
+      "start": "2020/05/19 07:00:00 PM UTC",
+      "end": "2020/06/09 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 22",
+      "type": "competitive",
+      "start": "2020/05/07 00:00:00 AM UTC",
+      "end": "2020/07/02 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Open Queue 2",
+      "type": "competitive",
+      "start": "2020/06/11 07:00:00 PM UTC",
+      "end": "2020/07/02 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 21",
+      "type": "competitive",
+      "start": "2020/03/05 00:00:00 AM UTC",
+      "end": "2020/05/07 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Open Queue 1",
+      "type": "competitive",
+      "start": "2020/03/12 07:00:00 PM UTC",
+      "end": "2020/04/02 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Archives: Revisit the past",
+      "type": "event",
+      "start": "2020/03/12 07:00:00 PM UTC",
+      "end": "2020/04/02 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Year of the Rat",
+      "type": "event",
+      "start": "2020/01/16 07:00:00 PM UTC",
+      "end": "2020/02/05 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  {
+      "name": "Competitive Season 20",
+      "type": "competitive",
+      "start": "2020/01/02 00:00:00 PM UTC",
+      "end": "2020/03/05 00:00:00 AM UTC",
+      "finished": true,
+      "icon": null,
+      "background": null
+    },
+	  
     {
       "name": "Winter Wonderland 2019",
       "type": "event",
       "start": "2019/12/10 07:00:00 PM UTC",
       "end": "2020/01/02 00:00:00 AM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
@@ -23,7 +105,7 @@
       "type": "competitive",
       "start": "2019/11/07 07:00:00 PM UTC",
       "end": "2020/01/01 00:00:00 AM UTC",
-      "finished": false,
+      "finished": true,
       "icon": null,
       "background": null
     },
