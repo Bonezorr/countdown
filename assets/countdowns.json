@@ -1,6 +1,15 @@
 {
   "Countdowns": [
 	  {
+      "name": "Summer Games 2020",
+      "type": "event",
+      "start": "2020/08/04 07:00:00 PM UTC",
+      "end": "2020/08/25 00:00:00 AM UTC",
+      "finished": false,
+      "icon": null,
+      "background": null
+    },
+	  {
       "name": "Competitive Season 23",
       "type": "competitive",
       "start": "2020/07/02 07:00:00 PM UTC",
